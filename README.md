@@ -1,1 +1,3 @@
 # Image-processing-touchless-fingerprint-capture
+
+In this project, a mechanism for touchless finger print capturing using a camera is explained. The project aims at detecting the palm region including fingers from the captured video. For each collected frame of the video, the fingerprint section is identified and extracted. The palm identification process is based on skin color detection from the collected image frame. In order to realize this, the collected BGR (Blue, Green, Red) image is converted into HSV (Hue, Saturation, Value) image. This HSV image is then converted into a binary image by calculating threshold. The binary image is then used for determining the fingerprint area. In order to implement the project, OpenCV library is being used.
